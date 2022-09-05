@@ -1,0 +1,74 @@
+/* RESET */
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+.container{
+                 /* DEBUG  !!!!!!!!!!!!!!!! */
+    background-color: burlywood;
+    height: 100px;
+
+    width: 100%;
+    max-width: 1200px;
+    padding: 1em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+/* HEADER */
+
+header{
+                 /* DEBUG  !!!!!!!!!!!!!!!! */
+    background-color: aquamarine;
+}
+
+header .logo{
+                 /* DEBUG  !!!!!!!!!!!!!!!! */
+    height: 80%;
+    border: 1px solid black;
+    padding: 10px;
+
+
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+header .menu{
+                 /* DEBUG  !!!!!!!!!!!!!!!! */
+    height: 80%;
+    border: 1px solid black;
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+header .button, .login{
+                     /* DEBUG  !!!!!!!!!!!!!!!! */
+    height: 80%;
+    border: 1px solid black;
+    padding: 10px;
+                 
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu li, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+

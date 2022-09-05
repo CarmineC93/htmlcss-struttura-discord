@@ -7,70 +7,71 @@
 
 /* COMMON */
 
-.container{
-                 /* DEBUG  !!!!!!!!!!!!!!!! */
-    height: 100px;
+html{
+    font-family: 'Whitney', sans-serif;
+}
 
+.container{
     width: 100%;
     max-width: 1200px;
     margin: auto;
     display: flex;
     align-items: center;
+}
+
+.button{
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 30px;
+    background-color: white;
 
 }
 
 /* HEADER */
 
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+
 header{
-                 /* DEBUG  !!!!!!!!!!!!!!!! */
-    background-color: aquamarine;
+    height: 90px;
+    background-color: #255EE9;
     padding: 1rem;
 }
 
 header .logo{
-                 /* DEBUG  !!!!!!!!!!!!!!!! */
-    height: 80%;
-    border: 1px solid black;
     padding: 10px;
-    background-color: burlywood;
-
-
-    width: 25%;
-    display: flex;
-    align-items: center;
+    width: 11%;
 }
 
 header .menu{
-                 /* DEBUG  !!!!!!!!!!!!!!!! */
-    height: 80%;
-    border: 1px solid black;
-    background-color: burlywood;
-
-    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1em;
-
+    gap: 1.5em;
+    flex-grow: 1;
 }
 
-header .button, .login{
-                     /* DEBUG  !!!!!!!!!!!!!!!! */
-    height: 80%;
-    border: 1px solid black;
-    background-color: burlywood;
-    padding: 10px;
-                 
-    width: 25%;
-    display: flex;
+.button{
+    width: 11%;
+}
+
+header .login{                 
+    width: 20%;
     align-items: center;
-    justify-content: flex-end;
+    color: black;
+    border: 1pz solid white;
+    border-radius: 40px;
+    padding: 7px 16px;
 }
+
 
 .menu li, a{
     text-decoration: none;
     list-style-type: none;
-    color: black;
+    color: white;
+    
 }
 
 /* MAIN */
@@ -79,8 +80,11 @@ header .button, .login{
 
 .jumbo-box{
                       /* DEBUG  !!!!!!!!!!!!!!!! */   
-    background-color: blue;
-    height: 400px;
+                    
+                      height: 500px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover; 
+    background-color: #255EE9;
     display: flex;
     justify-content: center;
     align-items: center;

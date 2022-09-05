@@ -13,7 +13,7 @@
 
     width: 100%;
     max-width: 1200px;
-    padding: 1em;
+    padding: 1rem;
     margin: auto;
     display: flex;
     align-items: center;
@@ -73,7 +73,9 @@ header .button, .login{
     color: black;
 }
 
-/* JUMBOTRON */
+/* MAIN */
+
+/* jumbotron */
 
 .jumbo-box{
                       /* DEBUG  !!!!!!!!!!!!!!!! */   
@@ -89,5 +91,104 @@ header .button, .login{
     background-color: rgb(239, 144, 196);
     height: 80%;
     width: 900px;
+}
+
+/* first section */
+section .normal-sec{
+                              /* DEBUG  !!!!!!!!!!!!!!!! */   
+    height: 600px;
+    
+    padding: 3rem;
+    display: flex;
+}
+
+.normal-sec .img-box{
+                                  /* DEBUG  !!!!!!!!!!!!!!!! */   
+    background-color: skyblue;
+    height: 100%;
+    width: 65%;
+}
+
+.normal-sec .what-discord-do{
+                                    /* DEBUG  !!!!!!!!!!!!!!!! */   
+    background-color: pink;
+    height: 100%;
+    width: 35%;
+}
+
+/* second section */
+
+main .grey-section{
+                                    /* DEBUG  !!!!!!!!!!!!!!!! */   
+    background-color: lightgray;
 
 }
+
+section .inverted-sec{
+                                     /* DEBUG  !!!!!!!!!!!!!!!! */   
+    height: 600px;
+
+padding: 3rem;
+display: flex;
+}
+
+.inverted-sec .img-box{
+                                    /* DEBUG  !!!!!!!!!!!!!!!! */   
+    background-color: skyblue;
+    height: 100%;
+    width: 65%;
+}
+
+.inverted-sec .what-discord-do{
+                                  /* DEBUG  !!!!!!!!!!!!!!!! */   
+    background-color: pink;
+    height: 100%;
+    width: 65%;
+}
+
+/* third section */
+
+section .normal-sec{
+    /* DEBUG  !!!!!!!!!!!!!!!! */   
+height: 600px;
+
+padding: 3rem;
+display: flex;
+}
+
+.normal-sec .img-box{
+        /* DEBUG  !!!!!!!!!!!!!!!! */   
+background-color: skyblue;
+height: 100%;
+width: 65%;
+}
+
+.normal-sec .what-discord-do{
+          /* DEBUG  !!!!!!!!!!!!!!!! */   
+background-color: pink;
+height: 100%;
+width: 35%;
+}
+
+/* last big section */
+
+main .last-big-sec{
+          /* DEBUG  !!!!!!!!!!!!!!!! */   
+    background-color: lightgray;    
+    padding: 3rem;
+
+}
+
+main .big-one{
+          /* DEBUG  !!!!!!!!!!!!!!!! */   
+    height: 900px;
+    width: 80%;
+    background-color: green;
+}
+
+
+
+
+
+
+
